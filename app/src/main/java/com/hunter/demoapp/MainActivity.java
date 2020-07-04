@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        //hola desde git
         startActivity(new Intent(MainActivity.this, Menu.class));
         finish();
     }
